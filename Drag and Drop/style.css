@@ -1,0 +1,173 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(191, 213, 188);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(208, 187, 187);
+}
+
+.logo {
+    width: 4em;
+    height: inherit;
+    padding-left: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.full {
+    border-color: black;
+    box-sizing: 5px;
+    display: flex;
+    background-color: white;
+}
+
+.form_heading {
+    border: 3px solid black;
+    height: 2em;
+    padding-top: 1em;
+    font-weight: bold;
+    padding-left: 1em;
+    background-color: rgb(237, 212, 212);
+}
+
+.aside {
+    background-color: white;
+    width: 20em;
+    height: 50em;
+    margin: 15px;
+    border: 1px solid black;
+}
+
+.focus {
+    background-color:aliceblue;
+    width: 80em;
+    height: 58em;
+    margin: 15px;
+}
+
+.flex {
+    display: flex;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    background-color: rgb(178, 148, 200);
+}
+
+.box2 {
+    background-color: rgb(223, 209, 209);
+    padding: auto;
+    margin: auto;
+    width: 15em;
+    height: 5em;
+    border: dotted;
+    border-radius: 10px;
+}
+
+.form_element {
+    border: 1px solid black;
+    margin: auto;
+    width: 13em;
+    height: 20em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.heading {
+    border:black;
+    margin: auto;
+    width: 13em;
+    height: 2em;
+    margin-top: 1em;
+    background-color: rgb(181, 178, 178);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 10px;
+
+}
+
+.box {
+    background-color: cadetblue;
+    width: 5em;
+    height: 3em;
+    margin: auto;
+    text-align: center;
+    padding-top: 2em;
+    border-radius: 10px;
+}
+
+.line {
+
+    display: flex;
+    padding-top: 2em;
+}
+
+.bot {
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.bot1 {
+    background-color: rgb(155, 150, 150);
+}
+
+.bot2 {
+    background-color: #4CAF50;
+}
+
+.bot3 {
+    background-color: rgb(63, 120, 163);
+}
+
+
+.work {
+    display: flex;
+    margin: 2em;
+}
+
+.bg_img {
+    background-color: gainsboro;
+    width: 35em;
+    height: 30em;
+}
+
+.form_build {
+    background-color:firebrick;
+    width: 22em;
+    height: 30em;
+}
+
+
