@@ -1,0 +1,259 @@
+body {
+  background-color: #000;
+}
+
+main {
+  margin: 10vh;
+  width: 90vw;
+  height: auto;
+  background-color: #faebd7;
+  display: grid;
+  grid-template-columns: 3.5fr 1.5fr
+}
+
+section {
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.header {
+  display: flex;
+}
+
+.black {
+  background-color: #202020;
+  height: 23em;
+  width: 8em;
+}
+
+.white {
+  background-color: #faebd7;
+  height: 23em;
+  width: 35em;
+}
+
+.title {
+  position: absolute;
+  margin-top: 6em;
+  margin-left: 4em;
+  width: 36em;
+  height: 11em;
+  font-size: large;
+  padding-top: 1em;
+  padding-left: 2em;
+  background-color: #ffd801;
+}
+
+.name {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+img {
+  width: 10px;
+  height: 10px;
+}
+
+.col2 {
+  display: grid;
+  grid-template-columns: 1fr 20fr;
+}
+
+.yellow_side {
+  background-color: #ffd801;
+}
+
+.about {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-top: 1em;
+  padding-left: 2em
+}
+
+.font1 {
+  margin-top: 1rem;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0
+}
+
+.worktitle {
+  margin-top: 3em;
+}
+
+.work_secion {
+  display: grid;
+  grid-template-columns: 1fr 15fr;
+}
+
+.date {
+  margin-top: 3rem;
+  background-color: #202020;
+  height: 4rem;
+  width: 3rem;
+  padding: 5px;
+  display: inline;
+}
+
+.date p {
+  color: #fff;
+}
+
+.date::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 2.3rem solid transparent;
+  border-left: 3rem solid #202020;
+  border-bottom: 2.3rem solid transparent;
+  position: absolute;
+  margin-left: 3.2rem;
+  margin-top: -2.6rem;
+}
+
+.experience_details {
+  margin-left: 2.8em;
+  border-left: solid #5f5f5fa3;
+  padding-left: 1rem;
+}
+
+li {
+  margin: .5rem;
+  color: #5f5f5fa3;
+}
+
+.font2 {
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1rem;
+}
+
+.font3 {
+  margin: 0;
+  color: #5f5f5fa3;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  font-weight: 600;
+}
+
+aside {
+  display: grid;
+  padding-top: 2em;
+  background-color: #202020;
+  color: #fff;
+  text-align: center;
+}
+
+.fream {
+  float: left;
+  border: 3px solid #ff0;
+  border-left: none;
+  width: 80%;
+  height: 60%;
+  margin-top: 3em;
+}
+
+.profile_img {
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  margin-top: 10%;
+}
+
+.contact {
+  margin-top: -3em;
+}
+
+.font4 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffd801;
+}
+
+.eduction {
+  margin-top: -12em;
+}
+
+.half {
+  width: 60%;
+  background-color: #fff;
+}
+
+.icon_img {
+  width: 2rem;
+  height: auto;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+p {
+  margin: 0;
+}
+
+.yellow_line {
+  width: 10%;
+  border-color: #ffd801;
+  background-color: #ffd801;
+}
+
+.space {
+  margin-top: 3rem;
+}
+
+.font5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.p_marg {
+  margin-bottom: 3rem;
+}
+
+.skills {
+  align-items: center;
+  padding-top: 1em;
+  margin-top: -14em;
+}
+
+.skill {
+  color: #202020;
+  background-color: #ffd801;
+  width: 80%;
+  height: 2rem;
+  margin-left: 10%;
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.rating {
+  background-color: #202020;
+  height: 30%;
+  width: 50%;
+  margin: auto auto;
+}
+
+@media screen and (max-width:800px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100vw;
+  }
+
+  .p_marg {
+    margin-bottom: 0;
+  }
+
+  aside {
+    display: grid;
+    grid-template-rows: 1fr .5fr .5fr .5fr;
+    background-color: #202020;
+    color: #fff;
+    text-align: center;
+  }
+}
